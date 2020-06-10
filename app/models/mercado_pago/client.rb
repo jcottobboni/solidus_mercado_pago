@@ -9,7 +9,7 @@ module MercadoPago
     # ProductsHelper
     include Authentication
     include Preferences
-    include API
+    include Api
 
     attr_reader :errors
     attr_reader :auth_response

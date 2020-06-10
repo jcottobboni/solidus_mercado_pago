@@ -1,7 +1,7 @@
 require 'json'
 
 class MercadoPago::Client
-  module API
+  module Api
     def redirect_url
       point_key = sandbox ? 'sandbox_init_point' : 'init_point'
       @preferences_response[point_key]
